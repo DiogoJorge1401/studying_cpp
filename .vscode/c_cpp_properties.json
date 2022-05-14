@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/9",
+                "/usr/include/x86_64-linux-gnu/c++/9"
+            ],
+            "configurationProvider": "nonexistent.extension",
+            "compilerPath": "/usr/bin/g++-9",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-lm"
+            ]
+        }
+    ],
+    "version": 4
+}
