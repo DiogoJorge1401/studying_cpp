@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
   int length = 1;
   Player *players = new Player[length]{{"Suegoid Kun", 9200, 150}};
   showElement(players, length);
+  delete [] players;
   return 0;
 }
 ostream &operator<<(ostream &ost, Player p)
