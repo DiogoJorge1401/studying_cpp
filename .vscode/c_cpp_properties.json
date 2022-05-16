@@ -3,16 +3,16 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/include/c++/9",
-                "/usr/include/x86_64-linux-gnu/c++/9"
+                "${workspaceFolder}/**"
             ],
             "configurationProvider": "nonexistent.extension",
-            "compilerPath": "/usr/bin/g++-9",
+            "compilerPath": "/usr/bin/g++-10",
             "intelliSenseMode": "linux-gcc-x64",
             "compilerArgs": [
                 "-lm"
-            ]
+            ],
+            "cppStandard": "c++23",
+            "cStandard": "c17"
         }
     ],
     "version": 4

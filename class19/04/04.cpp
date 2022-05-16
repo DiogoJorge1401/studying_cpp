@@ -1,16 +1,12 @@
+#include "../../myLib/String.cpp"
 #include <iostream>
 
 using namespace std;
 
-bool equalsTo(string a, string b)
-{
-  return a.compare(b);
-}
-
 void readWords(int &cont)
 {
-  string WORDS[100];
-  while ((cin >> WORDS[cont], equalsTo(WORDS[cont], "pronto")))
+  String WORDS[100];
+  while ((cin >> WORDS[cont], !WORDS[cont].equalsTo("pronto")))
     cont++;
 }
 
